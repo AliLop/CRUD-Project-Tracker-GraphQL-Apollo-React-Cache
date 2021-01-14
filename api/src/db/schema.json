@@ -1,0 +1,9 @@
+{
+  "project": {
+    "id": "string",
+    "createdAt": "number",
+    "name": "string",
+    "description": "string",
+    "hours": "string"
+  }
+}

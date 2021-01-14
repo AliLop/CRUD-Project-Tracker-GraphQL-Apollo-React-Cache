@@ -1,0 +1,150 @@
+@import 'flexboxgrid';
+
+:root {
+  --bgColor: #EFEFEF;
+  --primaryColor: #2a3d8d;
+  --textColor: #070707;
+  --errorColor: #D1345B;
+  --lightTextColor: #fff;
+  --dark: #343a40;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', 'Segoe UI', Roboto, -apple-system, system-ui, BlinkMacSystemFont, Arial, sans-serif;
+  background: var(--bgColor);
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(0.2em + 1vw);
+  color: var(--textColor);
+}
+
+.app-logo {
+  height: 1.8rem;
+  padding-right: 10%;
+}
+
+.page {
+  padding: 1em 3em;
+}
+
+.row {
+  margin: 0px;
+}
+
+.header,
+.page-footer {
+  background: var(--primaryColor);
+}
+.header {
+  height: 5%;
+  padding: 10px 30px;
+  position: relative;
+  right: 0;
+  left: 0px;
+  width: 100%; 
+}
+
+.col-xs {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: var(--primaryColor);
+}
+
+.col-xs-6 {
+  padding-left: 1.5%;
+}
+
+.full-page-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, .8);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input,
+.hours-input {
+  padding: .5em;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 1rem;
+  height: 2rem;
+  width: 100%;
+  margin: 1em;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.hours-input {
+  width: 20%;
+}
+
+.label-hrs {
+  color: var(--dark);
+}
+
+button,
+.button {
+  outline: none;
+  border: none;
+  color: var(--lightTextColor);
+  font-size: .8rem;
+  text-transform: uppercase;
+  padding: .5rem;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: var(--primaryColor);
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 1em;
+}
+
+button.error,
+.button.error {
+  background: var(--errorColor);
+}
+
+.page-footer {
+  font-size: calc(7px + 1vmin);
+  color: var(--lightTextColor);
+  position: relative;;
+  bottom:-8px;
+}
+
+.footer-global {
+  margin-top: 2%;
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-i {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+}
+
+.footer-copyright {
+  margin-bottom: 2%;
+}
