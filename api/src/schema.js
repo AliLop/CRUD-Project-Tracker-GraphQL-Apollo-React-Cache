@@ -24,7 +24,8 @@ const typeDefs = gql`
   }
   type Mutation {
     addProject(input: NewProjectInput!): Project!
-    deleteProject(id: ID! ): ID!
+    deleteProject(id: ID! ): Project!
+    updatedProject(id: ID!, input:ProjectsInput!): Project!
   }
 `;
 

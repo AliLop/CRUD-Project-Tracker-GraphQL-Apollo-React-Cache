@@ -11,7 +11,7 @@ export default function NewProject({onSubmit}) {
   }
 
   return (
-    <div className="new-project">
+    <div className="new-project" id="formModal">
       <h3 className="title">Create Project</h3>
       <div className="box">
         <form onSubmit={submit}>

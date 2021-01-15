@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import gql from 'graphql-tag'
 import { useQuery, useMutation } from '@apollo/react-hooks'
 import ProjectsList from '../components/ProjectsList'

@@ -26,8 +26,7 @@ html {
 }
 
 .app-logo {
-  height: 1.8rem;
-  padding-right: 10%;
+  height: 2.3rem;
 }
 
 .page {
@@ -130,7 +129,7 @@ button.error,
 }
 
 .footer-global {
-  margin-top: 2%;
+  margin-top: 1%;
   padding-top: 1%;
   display: flex;
   flex-direction: column;
