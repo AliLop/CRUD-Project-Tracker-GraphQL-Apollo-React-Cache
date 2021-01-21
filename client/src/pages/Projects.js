@@ -17,7 +17,7 @@ const GET_PROJECTS = gql`
 `;
 
 const NEW_PROJECT = gql`
-  mutation CreateAProject($newProject: NewProjectInput!) {
+  mutation createAProject($newProject: NewProjectInput!) {
     addProject(input: $newProject) {
       id
       name
@@ -71,6 +71,7 @@ export default function Projects () {
         <NewProjectModal onSubmit={onSubmit} />
         </div>
       </section>
+      <section id="formModal"></section> 
     </div>
   )
 }

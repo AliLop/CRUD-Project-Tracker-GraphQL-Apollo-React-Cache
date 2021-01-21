@@ -1,15 +1,10 @@
 {
-  "user": {
-    "id": "Maria",
-    "username": "Maria"
-  },
   "project": [
     {
       "id": "iO3OOZ8c2a3gX0vyFvIHc",
       "createdAt": 1589064784831,
       "name": "tuplie",
       "description": "blabla",
-      "user": "Maria",
       "hours": "30"
     },
     {
@@ -17,7 +12,6 @@
       "createdAt": 1589064800845,
       "name": "becky",
       "description": "BLABLA",
-      "user": "Maria",
       "hours": "30"
     },
     {
@@ -25,7 +19,6 @@
       "createdAt": 1610365311861,
       "name": "new project demo",
       "description": "new project demo",
-      "user": "Maria",
       "hours": "30"
     },
     {
@@ -33,7 +26,6 @@
       "createdAt": 1610365605827,
       "name": "new instant project",
       "description": "new instant project cache",
-      "user": "Maria",
       "hours": "30"
     },
     {
@@ -41,144 +33,7 @@
       "createdAt": 1610366077190,
       "name": "optimistc reponse test ",
       "description": "optimistc reponse test ",
-      "user": "Maria",
       "hours": "30"
-    },
-    {
-      "id": "cyIm_kx5SmqwZUgXMePlF",
-      "createdAt": 1610373985306,
-      "name": "esrdg",
-      "description": "xfgc",
-      "hours": "30",
-      "user": "Maria"
-    },
-    {
-      "id": "UHKBOQSamLE9S5SpExtdn",
-      "createdAt": 1610374223649,
-      "name": "sdf",
-      "description": "dsfgx",
-      "hours": "46",
-      "user": "Maria"
-    },
-    {
-      "id": "t1ho4MWQ2ESDjQcmlEIM9",
-      "createdAt": 1610376855142,
-      "name": "namw",
-      "description": "mer",
-      "hours": "20",
-      "user": "Maria"
-    },
-    {
-      "id": "anR3dUnl-rowoZVxz23H8",
-      "createdAt": 1610400081629,
-      "name": "dfv",
-      "description": "cfvg",
-      "hours": "66",
-      "user": "Maria"
-    },
-    {
-      "id": "0PI4JuQNybIq5EACTfNrZ",
-      "createdAt": 1610400161673,
-      "name": "fcg",
-      "description": "fcg",
-      "hours": "64",
-      "user": "Maria"
-    },
-    {
-      "id": "5Bdd7PGN1ipRfAh09Of1x",
-      "createdAt": 1610400177953,
-      "name": "same page",
-      "description": "same page",
-      "hours": "55",
-      "user": "Maria"
-    },
-    {
-      "id": "RkUBXhrnJ90nindP2-yBX",
-      "createdAt": 1610400256396,
-      "name": "sem modal",
-      "description": "sem modal",
-      "hours": "88",
-      "user": "Maria"
-    },
-    {
-      "id": "CxtfDILJBQa3ytGPkSr_R",
-      "createdAt": 1610400837258,
-      "name": "899kj",
-      "description": "90",
-      "hours": "9",
-      "user": "Maria"
-    },
-    {
-      "id": "pETfY8YbtNM2ECEhH87ZH",
-      "createdAt": 1610401612298,
-      "name": "kep",
-      "description": "lh",
-      "hours": "67",
-      "user": "Maria"
-    },
-    {
-      "id": "V0LyIU8He8L3ooh2sGpIv",
-      "createdAt": 1610443597706,
-      "name": "am",
-      "description": "am",
-      "hours": "90",
-      "user": "Maria"
-    },
-    {
-      "id": "_a-Hzavyw_qZXs9fXKVb2",
-      "createdAt": 1610444651684,
-      "name": "new",
-      "description": "nw",
-      "hours": "4",
-      "user": "Maria"
-    },
-    {
-      "id": "U6G3uLs36TO00ueMEoo4C",
-      "createdAt": 1610473185825,
-      "name": "n",
-      "description": "p",
-      "hours": "99",
-      "user": "Maria"
-    },
-    {
-      "id": "1yLy2XpG3gRRuuj2UXEaM",
-      "createdAt": 1610474228629,
-      "name": "knh",
-      "description": "toast",
-      "hours": "55",
-      "user": "Maria"
-    },
-    {
-      "id": "C9hNu-NsNIaaLg-3rZ4mF",
-      "createdAt": 1610539352336,
-      "name": "n",
-      "description": "n",
-      "hours": "52",
-      "user": "Maria"
-    },
-    {
-      "id": "TJEBZRx84Ug71HhZ47HqY",
-      "createdAt": 1610550827979,
-      "name": "dtvhjb",
-      "description": "xcvhbjn",
-      "hours": "36",
-      "user": "Maria"
-    },
-    {
-      "id": "4JBGrJPauMDyyAnv4ET6P",
-      "createdAt": 1610552843431,
-      "name": "tg",
-      "description": "gfc",
-      "hours": "3",
-      "user": "Maria"
-    },
-    {
-      "id": "xCCvSoRXw0Ysffm7Im8K9",
-      "createdAt": 1610554274856,
-      "name": "szdxfc",
-      "description": "dxfc",
-      "hours": "88",
-      "user": "Maria"
     },
     {
       "id": "-j1hBx2XQJxEIGtrJ7I-z",
@@ -193,6 +48,19 @@
       "name": "#2 Read & Create",
       "description": "React, Cache, Apollo",
       "hours": "29"
+    },
+    {
+      "id": "jazXTsPc5Dn6GyeOBugPz",
+      "createdAt": 1611170231597,
+      "name": "My NEw PRoject",
+      "description": "BLBLA",
+      "hours": "10"
+    },
+    {
+      "id": "SqiaIQEs5wALfQgkq9qTp",
+      "name": "Latest",
+      "description": "CRUD",
+      "hours": "18"
     }
   ]
 }

@@ -15,8 +15,8 @@ module.exports = {
       return project;
     },
     
-    updatedProject(_, {id}, {input}, {models}) {
-      const project = models.Project.update({id:id}, {...input})
+    updateProject(_, {input}, {models}) {
+      const project = models.Project.update({ ...input })
       return project;
     }
   }

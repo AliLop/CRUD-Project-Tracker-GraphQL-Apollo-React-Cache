@@ -7,6 +7,7 @@
   --errorColor: #D1345B;
   --lightTextColor: #fff;
   --dark: #343a40;
+  --edit: #f7ce5e;
 }
 
 body {
@@ -83,7 +84,7 @@ html {
   border-radius: 3px;
   font-size: 1rem;
   height: 2rem;
-  width: 100%;
+  width: 80%;
   margin: 1em;
   text-align: center;
 }
@@ -121,6 +122,11 @@ button.error,
   background: var(--errorColor);
 }
 
+button.edit,
+.button.edit {
+  background:var(--edit);
+}
+
 .page-footer {
   font-size: calc(7px + 1vmin);
   color: var(--lightTextColor);
@@ -138,7 +144,6 @@ button.error,
 }
 
 .social-media-i {
-  color: white;
   display: inline-block;
   text-align: center;
   margin: 30px;

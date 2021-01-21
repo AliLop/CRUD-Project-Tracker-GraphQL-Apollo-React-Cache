@@ -19,13 +19,19 @@ const typeDefs = gql`
     description: String!
     hours: String! 
   }
+  input UpdateProjectInput {
+    id: String!
+    name: String!
+    description: String!
+    hours: String! 
+  }
   type Query {
     projects(input: ProjectsInput): [Project]!
   }
   type Mutation {
+    updateProject(input: UpdateProjectInput!): Project!
     addProject(input: NewProjectInput!): Project!
     deleteProject(id: ID! ): Project!
-    updatedProject(id: ID!, input:ProjectsInput!): Project!
   }
 `;
 

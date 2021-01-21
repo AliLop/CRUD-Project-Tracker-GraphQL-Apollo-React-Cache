@@ -1,5 +1,3 @@
-
-
 const nanoid = require("nanoid");
 
 const createProjectModel = (db) => {
@@ -30,14 +28,15 @@ const createProjectModel = (db) => {
       return deletedProject;
     },
 
-    update(id, project){
+    update(project){
       const projectsArray = db.get("project").value();
+
       for ( let i = projectsArray.length -1; i >= 0; i--){
-        if (projectsArray[i].id === id.id) {
-          projectsArray.splice([i], 1);
-          projectsArray.push(project).write();
-          console.log(project);
-          return project;
+        if (projectsArray[i].id === project.id) {
+          projectsArray[i].name = project.name
+          projectsArray[i].description = project.description
+          projectsArray[i].hours = project.hours
+          return projectsArray[i];
         }
       }
     }

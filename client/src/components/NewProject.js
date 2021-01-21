@@ -11,7 +11,7 @@ export default function NewProject({onSubmit}) {
   }
 
   return (
-    <div className="new-project" id="formModal">
+    <div className="new-project" >
       <h3 className="title">Create Project</h3>
       <div className="box">
         <form onSubmit={submit}>
@@ -24,7 +24,7 @@ export default function NewProject({onSubmit}) {
             onChange={e => setName(e.target.value)}
             required
           />
-
+          
           <input
             className="input"
             type="text"
@@ -33,7 +33,7 @@ export default function NewProject({onSubmit}) {
             onChange={e => setDescription(e.target.value)}
             required
           />
-
+         
            <label className="label-hrs">Total hours</label>
           <input
             className="hours-input"
