@@ -116,7 +116,7 @@ export default function ProjectsList({projects}) {
             <td id="td-desc">{project.description}</td>
             <td id="td-hours">{project.hours} H</td>
             <td id="project-handle"><button className="error" onClick={() => removeProject(project.id)}><i className="far fa-trash-alt"></i> </button></td>
-            <td id="project-handle"><button className="edit" onClick={() => {toUpdateProject(project)}}><i class="fas fa-pencil-alt"></i></button></td> 
+            <td id="project-handle"><button className="edit" onClick={() => {toUpdateProject(project)}}><i className="fas fa-pencil-alt"></i></button></td> 
           </tr>
           ))}
           </tbody>

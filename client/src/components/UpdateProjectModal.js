@@ -1,6 +1,6 @@
   import React, {useState} from 'react'
   export default function UpdateProjectModal({project, onSubmit, onCancel}) {
-
+    
     const [id] = useState(project.id)
     const [name, setName] = useState(project.name)
     const [description, setDescription] = useState(project.description)
