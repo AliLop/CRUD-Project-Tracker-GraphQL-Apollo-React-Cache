@@ -1,6 +1,6 @@
 # alicia_react
 
-To start it you can just do an <command> npm install </command> and run on 2 different terminals - directly on the root file:
+To start it you can just do an <command> npm install </command> and run on 2 different terminals - directly on the root file: <br />
 =>  npm run server <br />
 => npm run app 
  
