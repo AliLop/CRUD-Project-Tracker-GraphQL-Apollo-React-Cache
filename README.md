@@ -9,4 +9,4 @@ The client runs on http://localhost:1234/
 
 One week project 
 
-<img width="550px" src="/src/screenshot.png">
+<img width="550px" src="client/src/screenshot.png">
